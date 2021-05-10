@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <h1>Systems Challenges in Reliable and Secure Federated Learning</h1>
+        <h3>SOSP 2021 Workshop Proposal</h3>
+        <h3>Saurabh Bagchi, Kevin Chan, Christof Fetzer, Tom Jacobs, Suman Jana, Prateek Mittal</h3>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../resilientfl/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../resilientfl/callforposters.html">Call for Posters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../resilientfl/programcommittee.html">Program Committee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../resilientfl/schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../resilientfl/keynotespeakers.html">Keynote Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../resilientfl/acceptedpapers.html">Accepted Papers</a>
+            </li>
+        </ul>
+
+        <h1>Systems Challenges in Reliable and Secure Federated Learning</h1>
+        <p>
+            We propose to organize a workshop on the systems challenges raised by the area of federated (machine) learning, 
+            or more generally, distributed learning. We will focus on how to achieve reliable and secure learning 
+            considering that federated learning relies on a distributed set of nodes, often geographically distributed, 
+            not physically secured, heterogeneous, and with varying levels of resource constraints. The workshop will lead 
+            to a first-of-its-kind vision paper that will synthesize the progress we have made, the overarching technical 
+            problems we have to solve, and the 5 most compelling usage scenarios. We will plan on holding this workshop 
+            annually, rotating among security and systems venues.
+        </p>
+        <p>
+            So far the flourishing work in federated learning in the ML community hints at important systems challenges, 
+            which have neither been carefully articulated in a systems forum nor seen concerted solution efforts. Some 
+            representative topics for the workshop are (all in the context of federated learning) trusted execution 
+            environments, resilience to attacks, intermittent or low bandwidth network connectivity, asynchronous vs 
+            synchronous network models, and heterogeneity (devices, data, models). The event will draw academics, 
+            government lab scientists, and industrial practitioners.
+        </p>
+        <p>
+            SOSP is well established as a venue where many of the leading results in computer systems of their time have 
+            been presented. This workshop will contribute to the vitality of SOSP by contributing a rich problem context 
+            to it. It will also expand the envelope of the conference to an area that shows high promise to influence our 
+            world. Arguably the most famous industrial deployment is in Google’s Gboard which predicts, based on swipes, 
+            what the next word is and this runs on hundreds of millions of Android devices. There are many other 
+            large-scale deployments that are not as well known and importantly, many others peeking over the horizon. 
+            We believe federated learning becomes more important as an ever increasing number of sensors in our 
+            “sensorified” world generate ever increasing amounts of data and data processing moves to the edge.
+        </p>
+        <p style="text-align: center;">
+            <i>The key question is can this learning be done reliably and securely so that we can trust our private and 
+            critical interactions to such systems.</i>
+        </p>
+        <p>
+            This pendulum of moving from centralized infrastructure to a distributed infrastructure at the edge has swung 
+            at least twice in our living memories and of course, no single point in the spectrum will be the universal 
+            solution. The systems community has had a major role in shaping the movement in this arc. This workshop will 
+            start the effort to keep the community engaged with an emerging point in the spectrum. The point in the 
+            spectrum represented by federated learning seems particularly timely as it leverages two dominant trends in 
+            our world:
+            <ol>
+                <li>
+                    Large amounts of data being generated at the edges of our systems, the deployment contexts becoming 
+                    more dynamic, and the consequent necessity of learning and re-learning from this data. Obviously not 
+                    all of the data can be brought back to the backend for enabling such learning. Hence the need for 
+                    distributed and federated learning.
+                </li>
+                <li>
+                    As this paradigm catches strength, we expect that there will be deployments in application contexts 
+                    where we care about the integrity of the results. Hence the need for reliability and security. The 
+                    modalities that make this challenging are the insecure deployments of the nodes as well as the hardware 
+                    and software constraints of the nodes.
+                </li>
+            </ol>
+        </p>
+    </body>
+</html>
